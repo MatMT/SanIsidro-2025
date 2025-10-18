@@ -22,6 +22,7 @@ export default function Header({ scrollY, scrollToSection, refs }) {
               { name: 'Inicio', ref: refs.inicioRef },
               { name: 'Candidatas', ref: refs.candidatasRef },
               { name: 'Programación', ref: refs.programacionRef },
+              { name: 'Galería', ref: refs.galeriaRef },
               { name: 'Información', ref: refs.informacionRef }
             ].map((item) => (
               <button

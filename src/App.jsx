@@ -6,11 +6,12 @@ import HeroSlider from './components/HeroSlider';
 import BentoGrid from './components/BentoGrid';
 import CandidatasSection from './components/CandidatasSection';
 import ProgramacionSection from './components/ProgramacionSection';
+import GaleriaSection from './components/GaleriaSection';
 import InformacionSection from './components/InformacionSection';
 import Footer from './components/Footer';
 
 // Datos
-import { slidesData, candidatasData } from './data/fiestasData';
+import { slidesData, candidatasData, galeriaData } from './data/fiestasData';
 import { programacionData } from './data/programacionData';
 
 // Estilos
@@ -23,6 +24,7 @@ export default function App() {
   const inicioRef = useRef(null);
   const candidatasRef = useRef(null);
   const programacionRef = useRef(null);
+  const galeriaRef = useRef(null);
   const informacionRef = useRef(null);
 
   useEffect(() => {
@@ -53,6 +55,7 @@ export default function App() {
     inicioRef,
     candidatasRef,
     programacionRef,
+    galeriaRef,
     informacionRef
   };
 
@@ -85,6 +88,11 @@ export default function App() {
       <ProgramacionSection 
         programacion={programacionData}
         programacionRef={programacionRef}
+      />
+
+      <GaleriaSection 
+        galeria={galeriaData}
+        galeriaRef={galeriaRef}
       />
 
       <InformacionSection informacionRef={informacionRef} />

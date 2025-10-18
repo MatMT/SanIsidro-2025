@@ -31,7 +31,7 @@ export const candidatasData = [
     edad: 12,
     // Para usar imagen local, coloca la imagen en public/images/candidatas/ashley.jpg
     // y cambia la ruta a: "/images/candidatas/ashley.jpg"
-    foto: "https://via.placeholder.com/400x500/A13E46/FFFFFF?text=Ashley",
+    foto: "/images/candidatas/Ashley.jpeg",
     descripcion: "Representante de la comunidad San Carlos",
     color: "#A13E46" // Rojo
   },
@@ -39,7 +39,7 @@ export const candidatasData = [
     nombre: "Valeria Michelle Valencia Fuentes",
     edad: 16,
     // Para usar imagen local: "/images/candidatas/valeria.jpg"
-    foto: "https://via.placeholder.com/400x500/D1A148/FFFFFF?text=Valeria",
+    foto: "/images/candidatas/Valeria.jpeg",
     descripcion: "Representante de Movimiento juvenil San Isidro",
     color: "#D1A148" // Dorado
   },
@@ -47,7 +47,7 @@ export const candidatasData = [
     nombre: "Fatima Saraí Flores Cruz",
     edad: 17,
     // Para usar imagen local: "/images/candidatas/fatima.jpg"
-    foto: "https://via.placeholder.com/400x500/518488/FFFFFF?text=Fatima",
+    foto: "/images/candidatas/Fatima.jpeg",
     descripcion: "Representante de la comunidad San Isidro",
     color: "#518488" // Azul verdoso
   }
