@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight, X } from 'lucide-react';
 
-export default function PostsSlider({ posts }) {
+export default function PostsSlider({ posts, postsRef }) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [slidesToShow, setSlidesToShow] = useState(2);
   const [imagenSeleccionada, setImagenSeleccionada] = useState(null);
@@ -87,7 +87,7 @@ export default function PostsSlider({ posts }) {
   }, [imagenSeleccionada]);
 
   return (
-    <section className="py-20 px-4 bg-[#F0E7D2]">
+    <section ref={postsRef} className="py-20 px-4 bg-[#F0E7D2]">
       <div className="container mx-auto">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-4 text-[#A13E46]">
           Publicaciones

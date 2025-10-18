@@ -26,6 +26,7 @@ export default function App() {
   const candidatasRef = useRef(null);
   const programacionRef = useRef(null);
   const galeriaRef = useRef(null);
+  const postsRef = useRef(null);
   const informacionRef = useRef(null);
 
   useEffect(() => {
@@ -57,6 +58,7 @@ export default function App() {
     candidatasRef,
     programacionRef,
     galeriaRef,
+    postsRef,
     informacionRef
   };
 
@@ -98,7 +100,7 @@ export default function App() {
 
       <InformacionSection informacionRef={informacionRef} />
 
-      <PostsSlider posts={postsData} />
+      <PostsSlider posts={postsData} postsRef={postsRef} />
 
       <Footer />
     </div>

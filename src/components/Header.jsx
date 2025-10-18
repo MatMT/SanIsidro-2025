@@ -9,7 +9,8 @@ export default function Header({ scrollY, scrollToSection, refs }) {
     { name: 'Candidatas', ref: refs.candidatasRef },
     { name: 'Programación', ref: refs.programacionRef },
     { name: 'Galería', ref: refs.galeriaRef },
-    { name: 'Información', ref: refs.informacionRef }
+    { name: 'Información', ref: refs.informacionRef },
+    { name: 'Publicaciones', ref: refs.postsRef }
   ];
 
   const handleNavClick = (ref) => {
