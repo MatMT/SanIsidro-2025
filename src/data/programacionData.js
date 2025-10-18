@@ -11,7 +11,7 @@ export const programacionData = [
       { hora: '5:00 - 6:30 p.m.', actividad: 'Coronación de la Reina y show artístico', icon: Sparkles },
       { hora: '5:30 p.m.', actividad: 'Cena (Venta de Comida)', icon: Heart },
       { hora: '7:00 - 8:00 p.m.', actividad: 'Rosario', icon: Church },
-      { hora: '8:00 - 10:00 p.m.', actividad: 'Baile', icon: Music }
+      { hora: '8:00 - 10:00 p.m.', actividad: 'Baile (Por confirmar)', icon: Music }
     ]
   },
   {
@@ -24,7 +24,7 @@ export const programacionData = [
       { hora: '4:30 p.m.', actividad: 'Finalización de actividades infantiles', icon: Heart },
       { hora: '5:00 - 6:30 p.m.', actividad: 'Procesión', icon: Church },
       { hora: '7:00 - 8:00 p.m.', actividad: 'Rosario', icon: Church },
-      { hora: '8:00 - 10:00 p.m.', actividad: 'Orquesta San Salvador Este', icon: Music },
+      { hora: '8:00 - 10:00 p.m.', actividad: 'Orquesta San Salvador Este (Por confirmar)', icon: Music },
       { hora: '10:30 p.m.', actividad: 'Pólvora', icon: Sparkles }
     ]
   },

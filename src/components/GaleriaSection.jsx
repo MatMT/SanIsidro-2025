@@ -53,26 +53,26 @@ export default function GaleriaSection({ galeria, galeriaRef }) {
         </p>
 
         {/* Mensaje Próximamente */}
-        <div className="flex flex-col items-center justify-center py-16 md:py-24">
-          <div className="relative">
-            {/* Icono decorativo */}
-            <div className="absolute -top-8 -left-8 w-16 h-16 bg-[#D1A148]/20 rounded-full animate-pulse" />
-            <div className="absolute -bottom-8 -right-8 w-20 h-20 bg-[#518488]/20 rounded-full animate-pulse" style={{ animationDelay: '1s' }} />
+        <div className="flex flex-col items-center justify-center py-16 md:py-24 overflow-hidden">
+          <div className="relative max-w-2xl w-full mx-auto px-4">
+            {/* Iconos decorativos - ajustados para mobile */}
+            <div className="absolute top-0 left-4 md:-left-8 w-12 h-12 md:w-16 md:h-16 bg-[#D1A148]/20 rounded-full animate-pulse" />
+            <div className="absolute bottom-0 right-4 md:-right-8 w-16 h-16 md:w-20 md:h-20 bg-[#518488]/20 rounded-full animate-pulse" style={{ animationDelay: '1s' }} />
             
             {/* Contenido */}
-            <div className="relative bg-[#F0E7D2] rounded-3xl p-12 md:p-16 shadow-2xl text-center max-w-2xl">
+            <div className="relative bg-[#F0E7D2] rounded-2xl md:rounded-3xl p-8 md:p-16 shadow-2xl text-center">
               <div className="mb-6">
-                <svg className="w-20 h-20 mx-auto text-[#A13E46]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <svg className="w-16 h-16 md:w-20 md:h-20 mx-auto text-[#A13E46]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z" />
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 13a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
               </div>
               
-              <h3 className="text-3xl md:text-4xl font-bold text-[#3E2E1F] mb-4">
+              <h3 className="text-2xl md:text-4xl font-bold text-[#3E2E1F] mb-4">
                 Próximamente
               </h3>
               
-              <p className="text-lg md:text-xl text-[#518488] mb-6">
+              <p className="text-base md:text-xl text-[#518488] mb-6">
                 Estamos preparando una galería especial con los mejores momentos de nuestras Fiestas Patronales
               </p>
               
