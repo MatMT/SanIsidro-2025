@@ -93,3 +93,20 @@ export const galeriaData = [
     categoria: "eventos"
   }
 ];
+
+// Datos de posts (imágenes rectangulares)
+export const postsData = [
+  {
+    id: 1,
+    titulo: "Invitación Especial",
+    // Para usar imagen local: "/images/posts/invitacion-1.jpg"
+    imagen: "/images/posts/Post1.png",
+    descripcion: "Únete a nuestra celebración"
+  },
+  {
+    id: 2,
+    titulo: "Fiestas Patronales 2025",
+    imagen: "/images/posts/Post2.png",
+    descripcion: "Conoce todos los eventos"
+  }
+];

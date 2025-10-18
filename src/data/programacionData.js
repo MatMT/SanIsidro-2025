@@ -11,7 +11,7 @@ export const programacionData = [
       { hora: '5:00 - 6:30 p.m.', actividad: 'Coronación de la Reina y show artístico', icon: Sparkles },
       { hora: '5:30 p.m.', actividad: 'Cena (Venta de Comida)', icon: Heart },
       { hora: '7:00 - 8:00 p.m.', actividad: 'Rosario', icon: Church },
-      { hora: '8:00 - 10:00 p.m.', actividad: 'Convivencia fraterna con música', icon: Music }
+      { hora: '8:00 - 10:00 p.m.', actividad: 'Baile', icon: Music }
     ]
   },
   {

@@ -1,5 +1,4 @@
 import React from 'react';
-import { Church } from 'lucide-react';
 
 export default function Header({ scrollY, scrollToSection, refs }) {
   return (
@@ -13,7 +12,11 @@ export default function Header({ scrollY, scrollToSection, refs }) {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-3">
-            <Church className="w-8 h-8 text-white" />
+            <img 
+              src="/images/Logo.png" 
+              alt="Logo Fiestas Patronales" 
+              className="w-12 h-12 md:w-14 md:h-14 object-contain rounded-full"
+            />
             <span className="text-white font-bold text-xl hidden md:block">Fiestas Patronales</span>
           </div>
           

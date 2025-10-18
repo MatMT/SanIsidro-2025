@@ -8,10 +8,11 @@ import CandidatasSection from './components/CandidatasSection';
 import ProgramacionSection from './components/ProgramacionSection';
 import GaleriaSection from './components/GaleriaSection';
 import InformacionSection from './components/InformacionSection';
+import PostsSlider from './components/PostsSlider';
 import Footer from './components/Footer';
 
 // Datos
-import { slidesData, candidatasData, galeriaData } from './data/fiestasData';
+import { slidesData, candidatasData, galeriaData, postsData } from './data/fiestasData';
 import { programacionData } from './data/programacionData';
 
 // Estilos
@@ -96,6 +97,8 @@ export default function App() {
       />
 
       <InformacionSection informacionRef={informacionRef} />
+
+      <PostsSlider posts={postsData} />
 
       <Footer />
     </div>

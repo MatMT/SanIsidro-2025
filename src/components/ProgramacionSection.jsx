@@ -18,7 +18,7 @@ export default function ProgramacionSection({ programacion, programacionRef }) {
                     <Calendar className="w-10 h-10 mr-4" />
                     <h3 className="text-3xl font-bold">{dia.fecha}</h3>
                   </div>
-                  <Star className="w-10 h-10 fill-[#D1A148] text-[#D1A148] animate-pulse" />
+                   <Star className="w-10 h-10 fill-[#D1A148] mx-2 animate-pulse" />
                 </div>
               </div>
               
